@@ -1,6 +1,6 @@
 name: smart_list_builder
 description: A smart Flutter ListView and SliverList builder with animated item selection, shimmer loading, empty state handling, and optional GetX controller support.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/mrLorick/smart_list_builder
 
 environment:

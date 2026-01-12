@@ -19,7 +19,7 @@ Add the dependency in your pubspec.yaml:
 ############### smart_list_builder ###############
 
 dependencies:
-  smart_list_builder: ^1.0.0
+  smart_list_builder: ^1.0.1
 
 Smart List Builder is a Flutter UI package that provides animated ListView and SliverList builders with built-in loading shimmer, empty state handling, and item selection animation using GetX.
 

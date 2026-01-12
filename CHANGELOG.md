@@ -1,4 +1,4 @@
-## 1.0.0
+## 1.0.1
 
 - Initial release of smart_list_builder
 - Added SmartListViewBuilder with animated ListView support
