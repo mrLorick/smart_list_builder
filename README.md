@@ -16,13 +16,14 @@ Smart List Builder is a Flutter UI package that provides animated ListView and S
 Add the dependency in your pubspec.yaml:
 
 ```yaml
+############### smart_list_builder ###############
+
 dependencies:
   smart_list_builder: ^1.0.0
-# smart_list_builder
 
-A new Flutter project.
+Smart List Builder is a Flutter UI package that provides animated ListView and SliverList builders with built-in loading shimmer, empty state handling, and item selection animation using GetX.
 
-## Getting Started
+############### Getting Started ###############
 
 This project is a starting point for a Flutter application.
 
@@ -36,7 +37,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-Basic Usage (ListView)
+############### Basic Usage (ListView) ###############
 
 SmartListViewBuilder<String>(
   items: ['Apple', 'Banana', 'Orange'],
@@ -56,7 +57,7 @@ SmartListViewBuilder<String>(
 )
 
 
-Loading State (Shimmer)
+############### Loading State (Shimmer) ###############
 
 final isLoading = true.obs;
 SmartListViewBuilder<String>(
@@ -66,7 +67,7 @@ SmartListViewBuilder<String>(
 )
 
 
-Empty State
+############### Empty State ###############
 
 SmartListViewBuilder<String>(
   items: [],
@@ -74,7 +75,7 @@ SmartListViewBuilder<String>(
   itemBuilder: (_, __, ___) => const SizedBox(),
 )
 
-Sliver Usage
+############### Sliver Usage ###############
 
 CustomScrollView(
   slivers: [
@@ -88,7 +89,7 @@ CustomScrollView(
 )
 
 
-Controller Injection
+############### Controller Injection ###############
 
 final controller = SmartListController();
 
@@ -101,14 +102,14 @@ SmartListViewBuilder<String>(
 )
 
 
-Public API
+############### Public API ###############
 SmartListViewBuilder
 SmartSliverListViewBuilder
 SmartListController
 SmartListShimmerBuilder
 SmartShimmerBox
 
-Requirements
+############### Requirements ###############
 Flutter 3.10+
 Dart 3.0+
 GetX ^4.6.6# smart_list_builder
